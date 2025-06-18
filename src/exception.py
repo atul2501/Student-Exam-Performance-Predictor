@@ -1,4 +1,5 @@
 import sys                 #provide various function and variable to manuplate pyton run time env
+from src.logger import logging
 
 
 
@@ -18,3 +19,5 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
+    
+

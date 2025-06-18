@@ -1,4 +1,6 @@
 pandas
 numpy 
 seaborn
--e .
+matplotlib
+scikit-learn
+# -e . # its help to download requirements and connect wit setup.py file 
