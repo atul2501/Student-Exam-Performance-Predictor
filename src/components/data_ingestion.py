@@ -28,8 +28,9 @@ class DataIngestion:
         self.ingestion_config=DataIngestionConfig()
     
 
-    def initate_data_ingestion(self):
-        logging.info("Enter the data ingestion nethod or component")
+    def initiate_data_ingestion(self):
+        logging.info("Entered the data ingestion method or component")
+
         try:
             df=pd.read_csv('/Users/atul2501/Desktop/mlproject/notebook/data/stud.csv')
             logging.info('Read the dataset as dataframe')
@@ -60,7 +61,7 @@ class DataIngestion:
 
 if __name__=="__main__":
     obj=DataIngestion()
-    train_data,test_data=obj.initate_data_ingestion()
+    train_data,test_data=obj.initiate_data_ingestion()
 
     data_transformation=DataTransformation()
     train_arr,test_arr,_=data_transformation.initiate_data_transformation(train_data,test_data)
