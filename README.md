@@ -74,7 +74,7 @@ Example:
 ## 🧪 Running Locally
 
 ```bash
-git clone (https://github.com/atul2501/Student-Exam-Performance-Predictor.git)
+git clone https://github.com/atul2501/Student-Exam-Performance-Predictor.git
 cd mlproject
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
