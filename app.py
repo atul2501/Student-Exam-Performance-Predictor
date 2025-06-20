@@ -1,3 +1,6 @@
+#/opt/anaconda3/envs/mlproject/bin/streamlit run app.py 
+#runing streamlit on local server
+
 import streamlit as st
 import pandas as pd
 import dill
@@ -17,6 +20,7 @@ with st.sidebar:
     st.write("""
     - Predict student's math score.
     - Based on gender, race, education, lunch, preparation, reading & writing scores.
+    - This project is used kaggle data :- [Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977)
     """)
 
 # Form
